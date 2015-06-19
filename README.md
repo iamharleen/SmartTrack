@@ -47,7 +47,7 @@ Following technologies have been used in order to develop this project
 * Bootstrap
 * jQuery, HTML5, CSS, Javascript for UI
 * D3JS and HighCharts API to create Analyze charts
-* MongoLab for database
+* Amazon RDS for database
 
 ##Team Member
 --------------
