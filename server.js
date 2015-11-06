@@ -40,7 +40,11 @@ if ('development' == app.get('env')) {
 
 app.get('/', routes.index);
 app.get('/users', user.list);
-app.get('/first', index.html);
+app.get('/1', function (req,res) {
+
+          res.send('Hello');
+
+       });
 
 app.get('/index', routes.index);
 app.get('/login', routes.login);
